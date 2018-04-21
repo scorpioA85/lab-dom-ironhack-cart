@@ -6,6 +6,11 @@ function deleteItem(e){
   //   }
   // })
   
+  for(var i = 0; i<deleteButtons.length ; i++){
+    deleteButtons[i].onclick = function(){
+      deleteItem(deleteButtons[i]);
+    };
+  }
   // e.currentTarget.innerHTML = "";
   let body = document.getElementsByTagName("body")[0];
   body.removeChild("elements");
