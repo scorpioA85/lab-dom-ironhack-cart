@@ -2,6 +2,9 @@ body div{
   display: inline-block;
 
 }
+*{
+  /* border: 2px solid burlywood; */
+}
 .main-text{
   align-content: center;
   margin: 2% auto 0 35%;
@@ -12,12 +15,12 @@ body div{
   font-size: 30px;
 }
 .elements{
-  width: 80%;
+  width: 85%;
   margin: auto auto 5% auto;
 }
 .product{
   margin: 0 5% 0 5%;
-  text-align: right;
+  text-align: left;
 }
 .cost{
   margin: 0 5% 0 5%;
@@ -28,7 +31,17 @@ body div{
 .total-price{
   margin: 0 5% 0 5%;
 }
+.new-product{
+  /* clear: both; */
+  /* margin: 0 32px 0 32px; */
+  margin: 0 5% 0 5%;
+  text-align: left;
+}
+.createButton{
+  /* margin: 0 5% 0 5%; */
+  text-align: left;
 
+}
 input {
   border: solid 1px black;
 }
